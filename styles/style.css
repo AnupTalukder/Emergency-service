@@ -22,10 +22,22 @@
 
 } 
 .para{
-    color: #006747;
+    color:rgb(3, 109, 79);
+    /* #006747; */
    
 width: 135.72px;
 height: 44.69px;
+font-weight: bold;
+}
+
+.para1{
+   color:#ffffff;
+   font-weight: bold; 
+   font-size: 25px;
+}
+.para2{
+   color:#ffffff;
+   font-weight: bold; 
 }
 
 .navi{
@@ -50,7 +62,8 @@ height: 44.69px;
 
 }
 .navcard3{
-    background-color: #41FF6B;  
+    background-color: #00A63E;
+     
     margin-right: 10px;
     border-radius: 25px;
     gap:10px;
@@ -59,4 +72,72 @@ height: 44.69px;
      padding: 12px 36px 12px 36px;
    
 
+}
+
+.bb{
+    /* Frame 27154 */
+width: 100%;
+height: 239px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 4px;
+padding: 12px 60px 12px 60px;
+ background: linear-gradient(
+    90deg,
+    rgba(1, 49, 35, 1),
+    rgba(0, 103, 71, 1) 50%,
+    rgba(1, 50, 35, 1) 100%
+  );
+
+
+}
+
+.card_service{
+    display:grid;
+    grid-template-columns: 75% 25%; 
+    gap: 10px; 
+   
+    
+}
+
+.text1{
+font-weight: bold;
+font-size:20px ;
+
+}
+.text2{
+
+ color: var(--Gray, rgba(92, 92, 92, 1));
+  font-family: inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+.buttton_d{
+    display: flex;
+    gap:6px;
+    margin-right: 10px;
+    
+}
+.my-btn{
+     border-radius:5px;
+     width:182px;
+     height: 40px;
+     background-color: #00A63E;
+     padding:16px,16px;
+
+
+
+}
+
+.card{
+    border: #00A63E;
+    border-style: solid;
+     
 }
