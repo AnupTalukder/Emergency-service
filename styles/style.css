@@ -94,11 +94,21 @@ padding: 12px 60px 12px 60px;
 
 
 }
-
+.main-s{
+     background-color:rgba(245, 255, 246, 1); 
+     
+}
 .card_service{
-    display:grid;
-    grid-template-columns: 75% 25%; 
-    gap: 10px; 
+
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+    gap: 20px;                       
+    margin-top: 48px;
+    margin-bottom: 76px;
+    margin-left: 50px;
+
+
+   
    
     
 }
@@ -126,18 +136,63 @@ font-size:20px ;
     
 }
 .my-btn{
-     border-radius:5px;
+     border-radius:8px;
      width:182px;
      height: 40px;
      background-color: #00A63E;
      padding:16px,16px;
-
-
+     border: 1px solid var(--Stroke, rgba(212, 214, 213, 1));
 
 }
 
+.my-btn1{
+
+     width:182px;
+     height: 40px;
+     padding:16px,16px;
+
+      box-sizing: border-box;
+      border: 1px solid var(--Stroke, rgba(212, 214, 213, 1));
+      border-radius: 8px;
+      background: var(--White, rgba(255, 255, 255, 1));
+
+}
+
+.my-btn3{
+     border-radius:50px;
+     width:70px;
+     height: 30px;
+      box-sizing: border-box;
+     background-color: #00A63E;
+     padding:16px,16px;
+     border: 1px solid var(--Stroke, rgba(212, 214, 213, 1));
+
+}
+
+.container1{
+    display:flex;
+    gap:10px;
+    
+}
+
 .card{
-    border: #00A63E;
-    border-style: solid;
+    /* height: 300px; */
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    /* padding-bottom: 0px; */
+    border: 1px solid var(--Stroke, rgba(212, 214, 213, 1));
+
+}
+
+.history{
+
+    border: 2px solid red;
+    border-radius: 12px;
      
+}
+
+.history-card{
+    display:flex;
+    justify-content: space-between;
 }
